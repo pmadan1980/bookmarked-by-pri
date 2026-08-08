@@ -66,9 +66,9 @@ export default async function Home() {
                 <h1 className="f-disp hero-title" style={{ lineHeight: 0.94, letterSpacing: "-.015em", margin: 0, maxWidth: "19ch" }}>Coffee stains, dog-ears, and whatever I&apos;m halfway through.</h1>
               </div>
               <div style={{ transform: "rotate(3deg) translateX(-20px)", flex: "none" }}>
-                <div style={{ width: 172, padding: "13px 13px 16px", background: "#f4ecdb", border: "1px solid rgba(58,43,34,.18)", boxShadow: "0 10px 22px rgba(58,43,34,.22)", position: "relative" }}>
-                  <div style={{ height: 150, overflow: "hidden", background: "#98a086", position: "relative" }}>
-                    <Image src="/pri.jpg" alt="pri" width={172} height={150} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                <div style={{ width: 200, padding: "14px 14px 18px", background: "#f4ecdb", border: "1px solid rgba(58,43,34,.18)", boxShadow: "0 10px 22px rgba(58,43,34,.22)", position: "relative" }}>
+                  <div style={{ height: 176, overflow: "hidden", background: "#98a086", position: "relative" }}>
+                    <Image src="/pri.jpg" alt="pri" width={200} height={176} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
                   </div>
                   <div className="f-hand" style={{ fontSize: 22, textAlign: "center", marginTop: 7, color: "#5c4838" }}>Hiiiii</div>
                 </div>
