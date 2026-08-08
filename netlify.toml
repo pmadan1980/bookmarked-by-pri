@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Official Next.js runtime. Netlify auto-installs it; declaring it here is explicit and safe.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
